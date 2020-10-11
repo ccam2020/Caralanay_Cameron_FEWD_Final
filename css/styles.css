@@ -1,0 +1,117 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+
+@media (min-width: 480px) {
+  .reinvent-header {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .reinvent-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.nav-content {
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 20px;
+  font-weight: bolder;
+}
+
+li:hover {
+  color: #538fff;
+}
+
+.reinvent-main-photo {
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1573164574048-f968d7ee9f20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 650px;
+}
+
+.image-mask-darken {
+  position: relative;
+}
+
+.image-mask-darken:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  content: "";
+}
+
+.reinvent-intro-content {
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 400px;
+}
+
+.reinvent-intro-title {
+  font-size: 64px;
+}
+
+.reinvent-sub-title {
+  font-size: 16px;
+}
+
+.reinvent-button {
+  background-color: #538fff;
+  border-bottom: 2px solid #004ee0;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 50px auto;
+  text-align: center;
+  transition: 0.4s ease-in-out;
+  width: 220px;
+}
+
+.reinvent-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.reinvent-button:hover {
+  background-color: #00b3e0;
+}
+
+.reinvent-button-text {
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.reinvent-footer {
+  align-items: center;
+  color: black;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
